@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logotype</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <ul class="social-bar__menu">
+            <li><a href="#" class="social social-facebook" aria-label="Facebook"></a></li>
+            <li><a href="#" class="social social-twitter" aria-label="Twitter"></a></li>
+            <li><a href="#" class="social social-telegram" aria-label="Telegram"></a></li>
+            <li><a href="#" class="social social-pinterest" aria-label="Pinterest"></a></li>
+            <li><a href="#" class="social social-reddit" aria-label="Reddit"></a></li>
+            <li><a href="#" class="social social-heart" aria-label="Heart"></a></li>
+        </ul>
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top__wrap">
+                    <nav class="header-top__wrap__menu">
+                        <ul class="header-top__menu menu-icon">
+                            <li><a class="wt-phone" href="#">Menu item 1</a></li>
+                            <li><a class="wt-genge" href="#">Menu item 2</a></li>
+                            <li><a class="wt-android" href="#">Menu item 3</a></li>
+                            <li><a class="wt-apple" href="#">Menu item 4</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header-top__wrap__icon">
+                        <div class="header-top__icon">
+                            <ul>
+                                <li><a href="#" aria-label="Facebook"><i class="fa facebook"></i></a></li>
+                                <li><a href="#" aria-label="Twitter"><i class="fa twitter"></i></a></li>
+                                <li><a href="#" aria-label="Instagram"><i class="fa instargam"></i></a></li>
+                                <li><a href="#" aria-label="Youtube"><i class="fa youtube"></i></a></li>
+                                <li><a href="#" aria-label="Gmail"><i class="fa gmail"></i></a></li>
+                                <li><a href="#" aria-label="Wifi"><i class="fa wifi"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="header-top__switch">
+                            <label id="switch" class="switch">
+                                <input type="checkbox" onchange="toggleTheme()" id="slider">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-bottom__wrap">
+                    <div class="header-bottom__wrap__logo">
+                        <a href="#"><img src="./img/logo.png" alt="Logo"></a>
+                    </div>
+                    <div class="header-bottom__wrap__menu-search">
+                        <div class="header-bottom__search">
+                            <input type="text" placeholder="Search for…">
+                        </div>
+                        <ul class="header-bottom__menu">
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                        </ul>
+                        <ul class="header-bottom__second-menu menu-icon">
+                            <li><a class="g-phone" href="#">Menu item 1</a></li>
+                            <li><a class="g-genge" href="#">Menu item 2</a></li>
+                            <li><a class="g-android" href="#">Menu item 3</a></li>
+                            <li><a class="g-apple" href="#">Menu item 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-bottom__wrap__btn"><button class="menu-btn" title="Menu button"><span></span></button></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="banner__block">
+                <div class="banner__wrap">
+                    <div class="banner__wrap__item">
+                        <div class="banner__wrap__img"><img src="./img/title-img.png" alt="Banner img"></div>
+                        <div class="banner__wrap__text">
+                            <h2 class="banner__title">Lorem Ipsum is simply dummy</h2>
+                            <ul class="banner__wrap__btn">
+                                <li><a class="btn-anroid banner-btn" href="#">Android</a></li>
+                                <li><a class="btn-ios banner-btn" href="#">iOS</a></li>
+                                <li><a class="btn-pc banner-btn" href="#">Download on PC</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="banner__wrap__item banner__rating">
+                        <div class="progress-container">
+                            <svg class="progress-circle" width="80" height="80">
+                                <circle r="35" cx="40" cy="40"></circle>
+                            </svg>
+                            <svg class="progress-bar" width="80" height="80">
+                                <defs>
+                                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" class="gradient-stop1"></stop>
+                                        <stop offset="100%" class="gradient-stop2"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <circle r="35" cx="40" cy="40"></circle>
+                            </svg>
+                            <div class="progress-inner">
+                                <span class="progress-text">0</span>
+                            </div>
+                        </div>
+                        <div class="banner__raiting-list">
+                            <div class="banner__raiting-list__player">Players</div>
+                            <div class="banner__raiting-list__vote">12 votes</div>
+                            <div class="banner__raiting-list__your-rate">Your rating: <span>5.2</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner__inner">
+                <div class="banner__inner__menu">
+                    <ul class="banner__menu">
+                        <li class="active"><a href="#">Lorem Ipsum is simply dummy</a></li>
+                        <li><a href="#">item</a></li>
+                        <li><a href="#">item</a></li>
+                        <li><a href="#">item</a></li>
+                        <li><a href="#">item</a></li>
+                        <li><a href="#">item</a></li>
+                    </ul>
+                </div>
+                <div class="banner__inner__wiget">
+                    <div class="banner__progress-wrap">
+                        <div class="banner__progress-linear-bar">
+                            <ul class="banner__wiget-lists">
+                                <li>Note</li>
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                                <li>6</li>
+                                <li>7</li>
+                                <li>8</li>
+                                <li>9</li>
+                                <li>10</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner__inner__btn">
+                    <button class="banner__menu-btn">More info</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sidebar">
+        <div class="container">
+            <div class="sidebar__inner">
+                <div class="sidebar__inner__similar">
+                    <ul class="sidebar__breadcrumbs">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Lorem Ipsum is</a></li>
+                        <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                    <h1 class="sidebar__title">Lorem Ipsum is simply dummy</h1>
+                    <p class="sidebar__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into electronic
+                        typesetting,
+                        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                        sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.
+                    </p>
+                    <h3 class="sidebar__after-title">Similar articles</h3>
+                    <div class="sidebar__wrap">
+                        <div class="sidebar__wrap__item">
+                            <div class="sidebar__wrap__item-inner">
+                                <div class="sidebar__item-inner__img">
+                                    <img src="./img/item-img.jpg" alt="Similar sidebar">
+                                </div>
+                                <div class="sidebar__item-inner__title">Lorem Ipsum is simply dummy</div>
+                                <ul class="sidebar__item-inner__info">
+                                    <li class="sidebar-icon person">Alco</li>
+                                    <li class="sidebar-icon clock">26 janvier 2023</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sidebar__wrap__item">
+                            <div class="sidebar__wrap__item-inner">
+                                <div class="sidebar__item-inner__img">
+                                    <img src="./img/item-img.jpg" alt="Similar sidebar">
+                                </div>
+                                <div class="sidebar__item-inner__title">Lorem Ipsum is simply dummy</div>
+                                <ul class="sidebar__item-inner__info">
+                                    <li class="sidebar-icon person">Alco</li>
+                                    <li class="sidebar-icon clock">26 janvier 2023</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sidebar__wrap__item">
+                            <div class="sidebar__wrap__item-inner">
+                                <div class="sidebar__item-inner__img">
+                                    <img src="./img/item-img.jpg" alt="Similar sidebar">
+                                </div>
+                                <div class="sidebar__item-inner__title">Lorem Ipsum is simply dummy</div>
+                                <ul class="sidebar__item-inner__info">
+                                    <li class="sidebar-icon person">Alco</li>
+                                    <li class="sidebar-icon clock">26 janvier 2023</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sidebar__wrap__item">
+                            <div class="sidebar__wrap__item-inner">
+                                <div class="sidebar__item-inner__img">
+                                    <img src="./img/item-img.jpg" alt="Similar sidebar">
+                                </div>
+                                <div class="sidebar__item-inner__title">Lorem Ipsum is simply dummy</div>
+                                <ul class="sidebar__item-inner__info">
+                                    <li class="sidebar-icon person">Alco</li>
+                                    <li class="sidebar-icon clock">26 janvier 2023</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar__inner__block">
+                    <div class="sidebar__block">
+                        <div class="sidebar__block-item">
+                            <div class="sidebar__block__text">
+                                ADS
+                            </div>
+                            <div class="sidebar__block__number">
+                                300x600
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrap">
+                <div class="footer__wrap__item">
+                    <div class="footer__item-block">
+                        <div class="footer__item-block__logo">
+                            <a href="#"><img src="./img/logo.png" alt="Logo"></a>
+
+                        </div>
+                        <div class="footer__item-block__text">
+                            <p>Lorem Ipsum is simply dummy</p>
+                            <p>when an unknown printer took a galley of type
+                                and scrambled it to make a type specimen book.
+                                It has survived not only five
+                            </p>
+                        </div>
+                        <ul class="footer__item-block__icon">
+                            <li><a href="#" aria-label="Facebook"><i class="fa gr-facebook"></i></a></li>
+                            <li><a href="#" aria-label="Twitter"><i class="fa gr-twitter"></i></a></li>
+                            <li><a href="#" aria-label="Instagram"><i class="fa gr-instargam"></i></a></li>
+                            <li><a href="#" aria-label="Youtube"><i class="fa gr-youtube"></i></a></li>
+                            <li><a href="#" aria-label="Gmail"><i class="fa gr-gmail"></i></a></li>
+                            <li><a href="#" aria-label="Wifi"><i class="fa gr-wifi"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__wrap__item">
+                    <div class="footer__item__menu">
+                        <div class="footer__item__inner">
+                            <p class="footer__item-inner__title">Categhory</p>
+                            <ul class="footer__item-inner__menu">
+                                <li><a href="#">item 1</a></li>
+                                <li><a href="#">item 2</a></li>
+                                <li><a href="#">item 3</a></li>
+                                <li><a href="#">item 4</a></li>
+                                <li><a href="#">item 5</a></li>
+                                <li><a href="#">item 6</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__item__inner">
+                            <p class="footer__item-inner__title">Play better</p>
+                            <ul class="footer__item-inner__menu">
+                                <li><a href="#">item 1</a></li>
+                                <li><a href="#">item 2</a></li>
+                                <li><a href="#">item 3</a></li>
+                                <li><a href="#">item 4</a></li>
+                                <li><a href="#">item 5</a></li>
+                                <li><a href="#">item 6</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__item__inner">
+                            <p class="footer__item-inner__title">Useful links</p>
+                            <ul class="footer__item-inner__menu">
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__item__copyright">
+                        <p>Copyright &#169; 2024. Tous droits réservés.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
